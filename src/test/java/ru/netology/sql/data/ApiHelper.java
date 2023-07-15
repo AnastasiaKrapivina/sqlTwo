@@ -46,7 +46,7 @@ public class ApiHelper {
     public static Map<String, Integer> sentQueryToGetCardBalances(String token, Integer statusCode) {
         APICardInfo[] cardsInfo = given()
                 .spec(requestSpec)
-                .header("Authorization", "Bearer" + token)
+                .header("Authorization", "Bearer " + token)
                 .when()
                 .get("/api/cards")
                 .then().log().all()
@@ -63,7 +63,7 @@ public class ApiHelper {
     public static void generateQueryToTransfer (String token, APITransferInfo transferInfo, Integer statusCode) {
         given()
                 .spec(requestSpec)
-                .header("Authorization", "Bearer" + token)
+                .header("Authorization", "Bearer " + token)
                 .body(transferInfo)
                 .when()
                 .post("/api/transfer")

@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/tujg754jmi7rsp46?svg=true)](https://ci.appveyor.com/project/AnastasiaKrapivina/sql)
+[![Build status](https://ci.appveyor.com/api/projects/status/86lwtcfvude9sc2d?svg=true)](https://ci.appveyor.com/project/AnastasiaKrapivina/sqltwo)
