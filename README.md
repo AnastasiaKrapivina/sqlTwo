@@ -1,1 +1,0 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/86lwtcfvude9sc2d?svg=true)](https://ci.appveyor.com/project/AnastasiaKrapivina/sqltwo)
